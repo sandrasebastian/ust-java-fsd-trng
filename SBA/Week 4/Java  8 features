@@ -1,0 +1,42 @@
+ Java 8 Features
+Java 8 is a major feature release of JAVA programming language development.
+There are several new features that are introduced:
+1.Lambda Expression
+Lambda expression is a new feature which is introduced in JAVA 8.
+It was intoduced to favor the functional interfaces and method references.Because lambda expression code like as though its a functional code.
+Syntax:
+(parameter/argument list)->{body}
+2.Functional Interfaces
+These are interfaces which contains exactly one abstract.
+To use lambda expression in JAVA,we need to either create our own functional interface provided by JAVA.
+While creating our own functional interface,mark it with @FunctionalInterfaces annotation,this annotation is intoduced in JAVA 8.
+3.Method References
+Method Reference is used to point/refer to the functional interface method.
+The :: operator is used in method reference to seperate the class or object from the method name.
+            System.out::println
+Types of Method References
+            Reference to a static method
+            Reference to an Instance method
+            Reference to a Constructor
+4.Optional
+This is a class newly intoduced as part of java and basically to deal with NullPointerExceptions.
+Using this class we can easily check whether a variable has null value or not.
+5.Stream
+A Stream in JAVA 8 can be defined as the sequence of elements from a source to destination.
+Streams supports aggregate operations on the data returned from collections, arrays, I/O operations.
+Stream does not store the elements.It simply performs the aggregate operations to get the desired stream of data.
+Aggregate operations that we perform on the collection, array or any other data source do not change the data of the source, they simply return a new stream.
+6.forEach()
+This method is to Iterate over collections and streams in JAVA.We can also use method reference in the forEach method.
+Stream forEach() method performs an action for each element of the stream.
+Input to the forEach() method is consumer which is Functional Interface.
+Using forEach() method we will Iterate through all elements and print to console using lambda expression as well as method reference.
+7.Default method in Interface
+Default method is introduced in JAVA 8 to add the new methods in the existing interfaces in such a way so that they are backward compatible.
+Backard compatibility is adding new features without breaking the old code.
+8.Static method in Interface
+Static Methods in Interface are similar to default method so we need not to implement them in the Implementation classes.
+We can safely add them to the exixting interfaces without changing the code in the implementation classes.
+9.Collectors class
+Collectors is a final class that extends the object class which provided reduction operations ,such as accumulationg elements into collections,summerizing elements according to various criteria ,grouping etc.
+
