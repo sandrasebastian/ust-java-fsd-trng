@@ -1,6 +1,13 @@
 package Day5set1;
 import java.lang.*;
+
+/**
+ * The type Join demo.
+ */
 public class JoinDemo implements Runnable{
+	/**
+	 * Run.
+	 */
 	@Override
 	public void run() {
 		
@@ -12,6 +19,13 @@ public class JoinDemo implements Runnable{
 		
 		
 	}
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 * @throws Exception the exception
+	 */
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
