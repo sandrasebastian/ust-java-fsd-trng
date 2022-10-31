@@ -34,7 +34,7 @@ public class JoinDemo implements Runnable{
 		//waits for 1000ms this thread to die.
 		t.join(1000);
 		System.out.println("\n joining after 1000"+"milliseconds:\n");
-		System.out.println("Current thread:"+t.getName());
+		System.out.println("Current thread updated:"+t.getName());
 		
 		//checks if this thread is alive
 		System.out.println("Is alive?"+t.isAlive());
