@@ -24,7 +24,7 @@ s.display();
 	final int z=10;
 	final void display(){
 		
-		     System.out.println("In Display");
+		     System.out.println("In Display updated");
 		  
 	}
 	void display(int x){
