@@ -1,0 +1,75 @@
+
+
+.fluid-container{
+
+    background-image: url("/assets/images/contact.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-blend-mode: normal;
+
+}
+
+ 
+
+ 
+img {
+    display: block;
+    max-width: 35%;
+    height: auto;
+    margin :auto;
+    
+   
+    
+  }
+  
+ 
+
+.rightNav {
+    width: 20;
+ text-align: right;
+}
+.navbar {
+ display: flex;
+ position: sticky;
+    top: 0;
+     cursor: pointer;
+    }
+
+
+    .card{
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        margin :auto;
+    }
+    .background {
+     background-color: #fbfcfd;
+     background-blend-mode: darken;
+     background-size: cover;
+    }
+    .text-footer {
+     text-align: center;
+     padding: 8px ;
+     font-family: "Ubuntu", sans-serif;
+     display: flex;
+    justify-content: center;
+    }
+    .container-fluid{
+        border-radius: 5cm;
+        background-color: #0b0f0f;
+        height: 1cm;
+        text-align: center;
+        padding-top: 0.1cm;
+    }
+    
+
+
+
+
+
+
+
+
